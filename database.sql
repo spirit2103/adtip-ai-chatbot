@@ -1,0 +1,9 @@
+CREATE DATABASE chatbot;
+USE chatbot;
+
+CREATE TABLE history (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_message TEXT NOT NULL,
+    bot_reply TEXT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
