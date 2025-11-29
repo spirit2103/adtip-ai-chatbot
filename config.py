@@ -1,6 +1,7 @@
 DB_CONFIG = {
-    "host": "localhost",
+    "host": "interchange.proxy.rlwy.net",
     "user": "root",
-    "password": "root",
-    "database": "chatbot"
+    "password": "RtQWFHPEEZnwmEVmKMzDMLPjthmGZlvd",
+    "database": "railway",
+    "port": 17872
 }
