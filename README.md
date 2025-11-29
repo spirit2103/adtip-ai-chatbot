@@ -30,8 +30,8 @@ The chatbot can generate intelligent responses and store chat history.
 ---
 
 ## 🔧 Installation Guide
-```sh
 ### 1️⃣ Clone Repository
+```sh
 git clone https://github.com/your-username/ai-chatbot.git
 cd ai-chatbot
 ```
@@ -55,10 +55,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ### 4️⃣ Setup MySQL Database
-```sh
+
 >Run the following command in MySQL:
+```sh
 CREATE DATABASE chatbot_db;
+```
+
 > Create table
+```sh
 CREATE TABLE history (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_message TEXT,
