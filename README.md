@@ -102,10 +102,8 @@ http://127.0.0.1:6500
 
 ## 🧪 API Usage
 ### Swaggers UI
-```sh
 >Visit:
 http://127.0.0.1:6500/docs
-```
 
 ## 🔹 Using Postman
 ### Send a POST request to:
